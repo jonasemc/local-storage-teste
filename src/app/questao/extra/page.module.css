@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 0.15rem solid;
+  border-color: #333;
+  border-radius: 1rem;
+  margin-top: 3rem;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15rem;
+  height: 12rem;
+  margin: 1rem;
+  border: 0.15rem solid;
+  border-color: #333;
+  border-radius: 1rem;
+}
+
+.formBox label {
+  margin: 1rem 0 1rem 0;
+}
+
+.formBox input {
+  margin-bottom: 2rem;
+  border-radius: 0.25rem;
+}
+
+.formBox button {
+  width: 4rem;
+  height: 4rem;
+  background-color: blue;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.formBox button:hover {
+  border-radius: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.resetButton {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(0, 185, 15);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.resetButton:hover {
+  border-radius: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.toDosContainer {
+  min-width: 50rem;
+  margin: 1rem;
+  border: 0.15rem solid;
+  border-color: #333;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.toDosContainer ul {
+  list-style-type: none;
+}
+
+.toDosContainer li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0.15rem solid;
+  border-color: #333;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.toDosContainer button {
+  margin-left: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgb(225, 0, 0);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.toDosContainer button:hover {
+  border-radius: 0;
+  transition: 0.5s ease-in-out;
+}
